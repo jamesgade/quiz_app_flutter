@@ -57,7 +57,7 @@ class ResultsScreen extends StatelessWidget {
             QuestionsSummary(summaryData: summaryData),
             const SizedBox(height: 30),
             TextButton.icon(
-              onPressed: () {},
+              onPressed: onRestart,
               style: TextButton.styleFrom(
                 foregroundColor: Colors.white,
               ),
